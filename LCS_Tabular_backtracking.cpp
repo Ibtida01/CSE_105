@@ -17,10 +17,6 @@ typedef long long int ll;
 typedef unsigned long long int ull;
 typedef long double ld;
 using namespace std;
-bool isEqualD(double x,double y)
-{
-    return (abs(x-y)<EPS) ? true : false;
-}
 string s1,s2;
 string show1,show2;
 int mem[1001][1001];
@@ -125,3 +121,4 @@ int main()
     //while(t--)
     solve();
 }
+//Try some test cases like: HORSE, ROSE ;  BANGLADESH, ANGLE etc.
