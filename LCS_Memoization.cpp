@@ -22,7 +22,9 @@ int mem[1001][1001];
 int lcs(int i,int j)
 {
     if(i==-1 || j==-1)
-        return 0;
+        return 0;//why return 0?? because i==-1 (or j==-1) means 1st string is an empty  string(if j==-1,then 2nd string, if both are -1, them both are empty strings)
+        //and empty string has nothing in common, so answer will be 0
+    if(mem[i][j]!=-1)
     if(mem[i][j]!=-1)
         return mem[i][j];
     if(s1[i]==s2[j])
