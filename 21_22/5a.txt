@@ -1,0 +1,23 @@
+pseudocode:
+structure of a node
+{
+  int data;
+  node* left,right;
+};
+node* prev=NULL,head=NULL;
+BT_to_DLL(root)
+{
+  if(root==NULL) 
+    return
+  BT_to_DLL(root.left)
+  if(prev==NULL)//this will execute ONLY once
+  {
+    head=root;
+  }
+  else{
+    root.left=prev
+    prev.right=root
+  }
+  prev=root
+  BT_to_DLL(root.right)
+}
