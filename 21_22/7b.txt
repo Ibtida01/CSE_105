@@ -1,0 +1,6 @@
+Algorithm:
+array1 = in_order_traversal(tree1)
+array2 = in_order_traversal(tree2)
+new_array[m+n]
+merge both arrays into new_array;
+build tree(optional)
