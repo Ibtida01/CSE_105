@@ -1,0 +1,2 @@
+O(infinity)
+because of the j=j++ part
