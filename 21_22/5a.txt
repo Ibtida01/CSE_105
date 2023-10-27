@@ -1,4 +1,4 @@
-pseudocode:
+pseudocode://BUT THE QUESTION WANTS C++ CODE MOST PROBABLY
 structure of a node
 {
   int data;
